@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-attribute comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="checkbox"/>
+                    <int id="2" val="_isChecked"/>
+                    <not comment="false" id="3" x="0" y="0">
+                        <get-val-14-3 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </set-attribute>
+                <if comment="false" x="26" y="79">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="104">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-14-2 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <get-val-14-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="148">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="168">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-14-1 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                </else>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
