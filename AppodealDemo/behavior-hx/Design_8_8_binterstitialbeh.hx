@@ -71,12 +71,15 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 class Design_8_8_binterstitialbeh extends ActorScript
 {
+	public var _InterstitialState:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
 		nameMap.set("Actor", "actor");
+		nameMap.set("InterstitialState", "_InterstitialState");
+		_InterstitialState = 0.0;
 		
 	}
 	
@@ -88,7 +91,18 @@ class Design_8_8_binterstitialbeh extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				Appodeal.showWithPlacement(Appodeal.INTERSTITIAL,"interstitial button click");
+				if((actor.getValue("b_interstitial_beh", "_InterstitialState") == 0))
+				{
+					Appodeal.cache(Appodeal.INTERSTITIAL);
+					actor.setValue("b_interstitial_beh", "_InterstitialState", 1);
+				}
+				if((actor.getValue("b_interstitial_beh", "_InterstitialState") == 2))
+				{
+					Appodeal.showWithPlacement(Appodeal.INTERSTITIAL,"interstitial button click");
+					actor.setValue("b_interstitial_beh", "_InterstitialState", 0);
+				}
+				Appodeal.addInterstitialListener("onInterstitialLoaded", function(){actor.setValue("b_interstitial_beh", "_InterstitialState", 2);});
+				Appodeal.addInterstitialListener("onInterstitialFailedToLoad", function(){actor.setValue("b_interstitial_beh", "_InterstitialState", 0);});
 			}
 		});
 		

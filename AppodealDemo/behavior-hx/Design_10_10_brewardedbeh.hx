@@ -88,7 +88,10 @@ class Design_10_10_brewardedbeh extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				Appodeal.showWithPlacement(Appodeal.REWARDED_VIDEO,"rewarded video button click");
+				if(Appodeal.isLoaded(Appodeal.REWARDED_VIDEO))
+				{
+					Appodeal.showWithPlacement(Appodeal.REWARDED_VIDEO,"rewarded video button click");
+				}
 			}
 		});
 		

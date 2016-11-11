@@ -38,7 +38,8 @@
         <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_8_8_binterstitialbeh" classname="scripts.Design_8_8_binterstitialbeh" desc="" description="" design="true" drawOrder="0" id="8" name="b_interstitial_beh" oid="-1" package="scripts" shared="false" type="actor">
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="InterstitialState" hidden="false" id="1" name="_InterstitialState" order="1"/>
         <blocks/>
         <events>
             <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>

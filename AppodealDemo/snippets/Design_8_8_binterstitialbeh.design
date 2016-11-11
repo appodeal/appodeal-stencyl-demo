@@ -3,10 +3,71 @@
     <group eventID="2" id="0">
         <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <showWithPlacement comment="false" x="26" y="42">
+                <if comment="false" x="26" y="42">
+                    <group eventID="2" id="-1">
+                        <cache comment="false" x="37" y="80">
+                            <int id="0" val="0"/>
+                        </cache>
+                        <set-attribute comment="false" x="37" y="107">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                            <int id="3" val="1"/>
+                        </set-attribute>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-attribute comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                        </get-attribute>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="146">
+                    <group eventID="2" id="-1">
+                        <showWithPlacement comment="false" x="37" y="184">
+                            <int id="0" val="0"/>
+                            <int id="1" val="interstitial button click"/>
+                        </showWithPlacement>
+                        <set-attribute comment="false" x="37" y="211">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                            <int id="3" val="0"/>
+                        </set-attribute>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-attribute comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                        </get-attribute>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <addInterstitialCallbackEvent comment="false" x="26" y="250">
+                    <group eventID="2" id="-1">
+                        <set-attribute comment="false" x="37" y="277">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                            <int id="3" val="2"/>
+                        </set-attribute>
+                    </group>
                     <int id="0" val="0"/>
-                    <int id="1" val="interstitial button click"/>
-                </showWithPlacement>
+                </addInterstitialCallbackEvent>
+                <addInterstitialCallbackEvent comment="false" x="26" y="316">
+                    <group eventID="2" id="-1">
+                        <set-attribute comment="false" x="37" y="343">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="b_interstitial_beh"/>
+                            <int id="2" val="_InterstitialState"/>
+                            <int id="3" val="0"/>
+                        </set-attribute>
+                    </group>
+                    <int id="0" val="1"/>
+                </addInterstitialCallbackEvent>
             </group>
             <ACTOR eid="var" id="0" vid="2147483647"/>
             <int id="1" val="2"/>

@@ -40,6 +40,7 @@
         <snippets>
             <s enabled="true" id="8">
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
             </s>
         </snippets>
     </actor>
