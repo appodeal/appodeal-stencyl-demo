@@ -100,11 +100,6 @@ class Design_2_2_binitbeh extends ActorScript
 				Appodeal.setUserId("some_user_id");
 				Appodeal.disableLocationPermissionCheck();
 				Appodeal.setAutoCache(Appodeal.INTERSTITIAL,false);
-				Appodeal.initialize("fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f",true,true,true,false,true);
-				Appodeal.setCustomIntegerRule("integer rule",0);
-				Appodeal.setCustomBooleanRule("boolean tule",true);
-				Appodeal.setCustomDoubleRule("double_rule",2.0);
-				Appodeal.setCustomStringRule("string rule","some string");
 			}
 		});
 		

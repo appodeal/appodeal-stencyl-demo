@@ -103,6 +103,7 @@ class Design_8_8_binterstitialbeh extends ActorScript
 				}
 				Appodeal.addInterstitialListener("onInterstitialLoaded", function(){actor.setValue("b_interstitial_beh", "_InterstitialState", 2);});
 				Appodeal.addInterstitialListener("onInterstitialFailedToLoad", function(){actor.setValue("b_interstitial_beh", "_InterstitialState", 0);});
+				Appodeal.addInterstitialListener("onInterstitialFinished", function(){trace("" + "interstitial finished");});
 			}
 		});
 		

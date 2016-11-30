@@ -88,7 +88,7 @@ class Design_11_11_bbannerbeh extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				Appodeal.show(Appodeal.BANNER_BOTTOM);
+				Appodeal.show(Appodeal.BANNER_TOP);
 			}
 		});
 		

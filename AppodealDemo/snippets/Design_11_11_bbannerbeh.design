@@ -4,7 +4,7 @@
         <event-mouse-enter-exit-actor comment="false" x="15" y="15">
             <group eventID="1" id="-1">
                 <show comment="false" x="26" y="42">
-                    <int id="0" val="6"/>
+                    <int id="0" val="3"/>
                 </show>
             </group>
             <ACTOR eid="var" id="0" vid="2147483647"/>

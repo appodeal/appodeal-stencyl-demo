@@ -8,11 +8,10 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="2" c="false" group="3" id="4" name="b_skippable_type 2" sx="1.0" sy="1.0" x="40" y="150" z="0"/>
         <actor a="0.0" aid="3" c="false" group="3" id="2" name="b_interstitial_type 3" sx="1.0" sy="1.0" x="40" y="80" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="6" name="b_rewarded_type 4" sx="1.0" sy="1.0" x="40" y="220" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="8" name="b_banner_type 5" sx="1.0" sy="1.0" x="40" y="290" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="12" name="b_hidebanner_type 6" sx="1.0" sy="1.0" x="40" y="360" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="6" name="b_rewarded_type 4" sx="1.0" sy="1.0" x="40" y="150" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="8" name="b_banner_type 5" sx="1.0" sy="1.0" x="40" y="220" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="12" name="b_hidebanner_type 6" sx="1.0" sy="1.0" x="40" y="290" z="0"/>
         <actor a="0.0" aid="7" c="false" group="3" id="0" name="b_init_type 7" sx="1.0" sy="1.0" x="40" y="10" z="0"/>
         <actor a="0.0" aid="8" c="false" group="3" id="16" name="chk_test 8" sx="1.0" sy="1.0" x="332" y="32" z="0"/>
         <actor a="0.0" aid="9" c="false" group="3" id="18" name="chk_logging 9" sx="1.0" sy="1.0" x="332" y="64" z="0"/>

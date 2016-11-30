@@ -68,6 +68,14 @@
                     </group>
                     <int id="0" val="1"/>
                 </addInterstitialCallbackEvent>
+                <addInterstitialCallbackEvent comment="false" x="26" y="382">
+                    <group eventID="2" id="-1">
+                        <print comment="false" x="37" y="409">
+                            <int id="0" val="interstitial finished"/>
+                        </print>
+                    </group>
+                    <int id="0" val="5"/>
+                </addInterstitialCallbackEvent>
             </group>
             <ACTOR eid="var" id="0" vid="2147483647"/>
             <int id="1" val="2"/>

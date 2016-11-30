@@ -38,34 +38,35 @@
                     <int id="0" val="0"/>
                     <int id="1" val="1"/>
                 </setAutoCache>
-                <initialize comment="false" x="26" y="324">
-                    <int id="0" val="fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
-                    <int id="3" val="0"/>
-                    <int id="4" val="1"/>
-                    <int id="5" val="0"/>
-                </initialize>
-                <setCustomIntegerRule comment="false" x="26" y="351">
-                    <int id="0" val="integer rule"/>
-                    <int id="1" val="0"/>
-                </setCustomIntegerRule>
-                <setCustomBooleanRule comment="false" x="26" y="371">
-                    <int id="0" val="boolean tule"/>
-                    <int id="1" val="0"/>
-                </setCustomBooleanRule>
-                <setCustomDoubleRule comment="false" x="26" y="398">
-                    <int id="0" val="double_rule"/>
-                    <int id="1" val="2.0"/>
-                </setCustomDoubleRule>
-                <setCustomStringRule comment="false" x="26" y="418">
-                    <int id="0" val="string rule"/>
-                    <int id="1" val="some string"/>
-                </setCustomStringRule>
             </group>
             <ACTOR eid="var" id="0" vid="2147483647"/>
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="1">
+        <initialize comment="false" x="27" y="324">
+            <int id="0" val="fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f"/>
+            <int id="1" val="0"/>
+            <int id="2" val="0"/>
+            <int id="3" val="1"/>
+            <int id="4" val="0"/>
+        </initialize>
+        <setCustomIntegerRule comment="false" x="27" y="351">
+            <int id="0" val="integer rule"/>
+            <int id="1" val="0"/>
+        </setCustomIntegerRule>
+        <setCustomBooleanRule comment="false" x="27" y="371">
+            <int id="0" val="boolean tule"/>
+            <int id="1" val="0"/>
+        </setCustomBooleanRule>
+        <setCustomDoubleRule comment="false" x="27" y="398">
+            <int id="0" val="double_rule"/>
+            <int id="1" val="2.0"/>
+        </setCustomDoubleRule>
+        <setCustomStringRule comment="false" x="27" y="418">
+            <int id="0" val="string rule"/>
+            <int id="1" val="some string"/>
+        </setCustomStringRule>
     </group>
     <group eventID="1" id="-1"/>
 </groups>

@@ -21,10 +21,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet actorid="6" attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_6" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
@@ -39,17 +35,10 @@
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_8_8_binterstitialbeh" classname="scripts.Design_8_8_binterstitialbeh" desc="" description="" design="true" drawOrder="0" id="8" name="b_interstitial_beh" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="InterstitialState" hidden="false" id="1" name="_InterstitialState" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="InterstitialState" hidden="false" id="1" name="_InterstitialState" order="1"/>
         <blocks/>
         <events>
             <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_9_9_bskippablebeh" classname="scripts.Design_9_9_bskippablebeh" desc="" description="" design="true" drawOrder="0" id="9" name="b_skippable_beh" oid="-1" package="scripts" shared="false" type="actor">
-        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
-        <blocks/>
-        <events>
-            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_10_10_brewardedbeh" classname="scripts.Design_10_10_brewardedbeh" desc="" description="" design="true" drawOrder="0" id="10" name="b_rewarded_beh" oid="-1" package="scripts" shared="false" type="actor">

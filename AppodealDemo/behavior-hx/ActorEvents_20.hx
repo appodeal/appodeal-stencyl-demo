@@ -87,7 +87,7 @@ class ActorEvents_20 extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				Appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
+				Appodeal.confirm(Appodeal.INTERSTITIAL);
 			}
 		});
 		
